@@ -1,0 +1,11 @@
+-var footerLinks = ["About us", "News", "Contact us"]
+-var user = "Regulus"
+-var navBarLinks = ["type of plants", "categories", "some photos"]
+mixin mainContent(title, firstParagraph, secondParagraph, reference, buttonContinue)
+    .mainBox
+        h1=title
+        .contentParagraphs
+            p=firstParagraph
+            p=secondParagraph
+            blockquote= reference
+        a.readMore=buttonContinue

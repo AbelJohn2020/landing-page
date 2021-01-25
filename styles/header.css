@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap" );
+
+.header-page {
+    background: #8898C0;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Oswald;
+    padding: 20px 20px 20px 48px;
+}
+.readMore,
+.header-page h1,
+.header-page a {
+    margin: 0;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header-page h1 {
+    font-size: 36px;
+}
+
+.header-page a {
+    background: #012179;
+    padding: 12px 32px;
+    font-size: 20px;
+}
